@@ -1,0 +1,43 @@
+.mainpart {
+    margin-left: 19vw;
+    padding: 2vh 2vw;
+    width: 77vw;
+    background-color: rgb(0, 0, 42);
+    height: 96vh;
+}
+.mainpart-header {
+    padding: 8vh 4vw;
+    color: white;
+    display: flex;
+}
+.mainpart-header-components {
+    padding-left: 34vw;
+    display: inherit;
+}
+.mainpart-header-component {
+    width: 2vw;
+    margin: 0 2vw;
+}
+.mainpart-header-component:hover {
+    color: rgb(171, 171, 171);
+}
+.mainpart-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mainpart-card {
+    margin: 15px 80px;
+    background-color: rgb(13, 13, 101);
+    padding: 30px;
+    width: 150px;
+    border-radius: 5px;
+}
+.mainpart-card-number {
+    width: 100%;
+    color: white;
+}
+.mainpart-card-label {
+    color: grey;
+}
