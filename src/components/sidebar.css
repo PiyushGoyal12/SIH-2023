@@ -58,3 +58,27 @@
     align-items: flex-end;
     padding: 1rem;
 }
+@media screen and (max-width: 800px) {
+    .sidebar {
+        width: 5vw;
+        overflow: hidden;
+    }
+    .options {
+        color: transparent;
+    }
+    .options:active {
+        color: transparent;
+    }
+    .options-list-headings {
+        color: transparent;
+    }
+    .options-list {
+        font-size: 1rem;
+    }
+    .sidebar > footer > h3 {
+        color: transparent;
+    }
+    .fa-gear {
+        font-size: 1rem;
+    }
+}

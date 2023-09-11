@@ -41,3 +41,10 @@
 .mainpart-card-label {
     color: grey;
 }
+@media screen and (max-width: 800px) {
+    .mainpart {
+        width: 95vw;
+        padding: 0;
+        margin-left: 8vw;
+    }
+}
